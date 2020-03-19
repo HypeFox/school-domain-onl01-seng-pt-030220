@@ -17,5 +17,5 @@ class School
     end
     @roster[grade] << name
     
-    def grade(number)
+    def grade(num)
 end
