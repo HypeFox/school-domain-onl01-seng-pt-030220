@@ -1,3 +1,5 @@
+require pry 
+
 class School
   
   def initialize (school_name)
@@ -26,4 +28,5 @@ class School
         @roster[grade] = name.sort
       end
     end
+    binding.pry
 end
